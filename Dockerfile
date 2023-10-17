@@ -8,6 +8,4 @@ WORKDIR /usr/app/src
 
 COPY main.py ./
 
-RUN python main.py
-
-CMD [ "python3", "./main.py"]
+CMD ["python main.py"]
