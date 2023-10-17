@@ -6,6 +6,6 @@ RUN apt install pip -y
 
 WORKDIR /usr/app/src
 
-COPY main.py ./
+COPY requirements.txt
 
 CMD ["python main.py"]
